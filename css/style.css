@@ -1,0 +1,67 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8b6245;
+    text-align: center;
+}
+
+.navbar li {
+    border: 2px solid #667077;
+    display: inline-block;
+    background-color: #6f4e37;
+    width: 115px;
+    margin: 2px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#cafe-icon-li {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    top: 8px;
+}
+
+#cafe-icon-li:first-child {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    background-color: transparent;
+    border: 0px;
+}
+
+#cafe-icon-li:last-child{
+    background-color: transparent;
+    border: 0px;
+}
+
+#cafe-icon-li img {
+    width: inherit;
+    height: inherit;
+}
+
+.navbar li a:hover {
+    background-color: #ac7b58;
+}

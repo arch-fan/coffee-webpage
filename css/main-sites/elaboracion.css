@@ -1,0 +1,81 @@
+body {
+    background-color: #593e2c;
+    overflow: hidden;
+}
+
+.main-container {
+    display: contents;
+}
+
+.main-container > img {
+    position: absolute;
+    width: 95%;
+}
+
+.dot {
+    position: absolute;
+    height: 3.5%;
+    width: 1.81093%;
+    background-color: #8b6245;
+    border-radius: 50%;
+}
+
+.dot-1 {
+    left: 20%;
+    top: 28.7%;
+}
+
+.dot-2 {
+    left: 45%;
+    top: 43.5%;
+}
+
+.dot-3 {
+    left: 72%;
+    top: 61%;
+}
+
+.dot-4 {
+    left: 45%;
+    top: 91.7%;
+}
+
+.description {
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+}
+
+.description-1 {
+    top: 10%;
+    left: 1%;
+}
+
+.description-2 {
+    top: 10%;
+    left: 40%;  
+    height: 25%;
+}
+
+.description-3 {
+    top: 48%;
+    left: 76%;
+}
+
+.description-4 {
+    top: 60%;
+    left: 40%;
+}
+
+.dot:hover {
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../../img/arabica.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scale(4);
+}
+

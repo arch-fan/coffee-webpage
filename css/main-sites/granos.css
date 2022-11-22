@@ -1,0 +1,148 @@
+body {
+    background-image: url('../../img/background-granos.jpg');
+}
+
+.dark-background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 200%;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 90%;
+    height: fit-content;
+}
+
+.container-title {
+    background-color: #C87137;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 110%;
+}
+
+.container-title > h1 {
+    position: relative;
+    margin: 0;  
+    top: 10%;
+}
+
+.container-cafe {
+    position: relative;
+    margin-top: 3%;
+    height: 470px;
+}
+
+.container-arabico {
+    float: left;
+    width: 45%;
+    justify-content: center;
+    height: 100%;
+    background-color: #8B6245;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-arabico-img {
+    margin: auto;
+    margin-top: 3%;
+    animation: rotate2 30s ease-in-out infinite;
+}
+
+.container-robusto {
+    float: right;
+    width: 45%;
+    justify-content: center;
+    height: 100%;
+    background-color: #8B6245;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-robusto-img {
+    margin: auto;
+    margin-top: 3%;
+    padding-bottom: 23px;
+    animation: rotate1 30s ease-in-out infinite;
+}
+
+.container-arrow {
+    display: contents;
+}
+
+.container-arrow > a > img {
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    margin-left: 0%;
+    animation: arrow 1s ease-in-out infinite alternate;
+}
+
+.container2 {
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    height: 1000px;
+    background: brown;
+}
+
+.container2-entry {
+    position: relative;
+    width: 90%;
+    height: 20%;
+    top: 5%;
+    left: 2.5%;
+}
+
+.container2-entry-img {
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    float: left;
+}
+
+.container2-entry-img > img {
+    width: 70%;
+    height: 100%;
+}
+
+.container2-entry-title {
+    text-align: center;
+}
+
+/* Animation keyframes */
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+
+}

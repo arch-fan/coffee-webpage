@@ -1,0 +1,38 @@
+body {
+    background-color: #b7794d;
+}
+
+#table-coffee {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 0;
+    top: 10%;
+    border-spacing: 15px;
+    vertical-align: middle;
+}
+
+#table-coffee tr td {
+    border: 4px solid #94613c;
+    width: 15em;
+    height: 15em;
+    border-radius: 20px;
+    background-color: #ca9c7b;
+    text-align: center;
+}
+
+#table-coffee tr td > img {
+    width: 224px;
+}
+
+#table-coffee tr td > p {
+    margin: 4px 10% 10%;
+}
+
+#tabla-coffee tr td > h1:link, :visited {
+    color: #4b321e;
+}
+
+#table-coffee tr td:last-child {
+    vertical-align: top;
+    width: 45em;
+}
