@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Raleway&display=swap');
+
+body {
+    background-image: url(../../img/background-beneficios.png);
+    background-repeat: no-repeat;
+    background-size: 117em;
+}
+
 .container {
     position: absolute;
     width: 70em;
-    height: 130em;
-    background-color: brown;
+    height: 142em;
+    background-color: #664833;
     margin-left: 24em;
     top: 9%;
     border-radius: 20px;
+    border: 2px solid #C87137;
+    font-family: 'Abyssinica SIL', serif;
 }
 
-.container-text {
-    margin-left: 10%;
-    margin-right: 15%;
+.container > p, h1 {
+    margin: 10px 30px;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 15px;
 }

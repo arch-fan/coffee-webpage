@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
-    background-color: #593e2c;
+    background-image: url(../../img/fondo-plantas.png);
+    background-size: 150em;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -16,7 +20,11 @@ body {
     position: absolute;
     height: 3.5%;
     width: 1.81093%;
-    background-color: #8b6245;
+    background-color: #ff8800;
+    background-image: url(../../img/img-icon.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 2px;
     border-radius: 50%;
 }
 
@@ -44,9 +52,15 @@ body {
     position: absolute;
     width: 15%;
     height: 30%;
-    background-color: blue;
+    background-color: #b07750;
     text-align: center;
     align-items: center;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text {
+    margin: 40px 15px 0px 15px;
 }
 
 .description-1 {
@@ -73,9 +87,23 @@ body {
 .dot:hover {
     background-color: transparent;
     position: absolute;
-    background-image: url(../../img/arabica.png);
     background-size: contain;
     background-repeat: no-repeat;
-    transform: scale(4);
+    transform: scale(5);
 }
 
+.dot-1:hover {
+    background-image: url(../../img/partes-cafetera-aluminio.jpg);
+}
+
+.dot-2:hover {
+    background-image: url(../../img/calentar-cafetera.png);
+}
+
+.dot-3:hover {
+    background-image: url(../../img/servir-cafe.jpg);
+}
+
+.dot-4:hover {
+    background-image: url(../../img/beber-cafe.png);
+}

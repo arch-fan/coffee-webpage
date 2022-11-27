@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
     background-color: #b7794d;
 }
 
 #table-coffee {
     position: absolute;
-    margin-left: 15%;
+    margin-left: 22%;
     margin-top: 0;
     top: 10%;
     border-spacing: 15px;
     vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
 }
 
 #table-coffee tr td {
@@ -28,7 +31,7 @@ body {
     margin: 4px 10% 10%;
 }
 
-#tabla-coffee tr td > h1:link, :visited {
+#tabla-coffee tr td > h1, :link, :visited, :active{
     color: #4b321e;
 }
 
